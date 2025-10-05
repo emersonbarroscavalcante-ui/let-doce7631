@@ -1,0 +1,85 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 100;
+    padding: 100px;;
+    background-color: #fafafa;
+    color: #010211;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/fundo6.webp'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f8f9fa;
+  }
+/* Cabeçalho e navbar */
+header {
+    background-color: #eb27ca;
+    padding: 12px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f5f0f0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #0e0f11;
+}
+
+/* Conteúdo */
+.container {
+    padding: 40px 20px;
+    text-align: center;
+    * Estilos modernos para os cards */
+.card {
+  border: none; /* Remove a borda padrão do Bootstrap */
+  border-radius: 15px; /* Canto mais arredondado */
+  overflow: hidden; /* Garante que a imagem e outros elementos internos respeitem o border-radius */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidade */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efeito de transição suave */
+}
+
+/* Efeito ao passar o mouse (hover) */
+.card:hover {
+  transform: translateY(-5px); /* Move o card ligeiramente para cima */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Aumenta a sombra para destaque */
+}
+
+/* Garante que a imagem dentro do card também tenha cantos arredondados no topo */
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover;
+  height: 200px;
+}
+
+}
+
+h1 {
+    color: #131314;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 10px auto;
+}
